@@ -14,7 +14,7 @@ function EstadoMapamundi(idEstado, rutaMapaJSON, xInicial, yInicial) {
 }
 
 function image(id,w,h){
-  return '<img src="https://drive.google.com/uc?export=view&id='+id+'" width="'+w+'" height="'+h+'"><br>';
+  return '<br><img src="https://drive.google.com/uc?export=view&id='+id+'" width="'+w+'" height="'+h+'"><br>';
 }
 
 EstadoMapamundi.prototype.actualizar = function(registroTemporal) {
@@ -28,12 +28,12 @@ EstadoMapamundi.prototype.actualizar = function(registroTemporal) {
 	let localizacionAtravesada = false;
 
 	let info = {"Ep0": "Hola!!! Bienvenida a este viaje.<br>Usa las flechas para mover al personaje y ve a cada casita para poder contarte una hermosa historia. Acompañeme en esta aventura.",
-  "Ep1":'Capítulo 1<br>Esta historia empieza un 23 de Abril de 2016. Y quién se iba a imaginar que la hermosa mujer que está bailando ahí se iba a convertir en la persona más especial en todo el mundo.<br>'+image("1DnYnsnX5m-IbufQQ66XGZKzuF1jgjyF-","70","120"),
-  "Ep2":'Capítulo 2<br>Y de repente, estabamos en otro país disfrutando un viaje inolvidable. Solo que ella aun ni me daba la hora :(<br> '+image("1kKYecxEVhDWVIFnA9M9g7ApDLmrxcwIu","240", "120") + 'Y ya empezaba a aparecer el agua, para empezar a remar.',
-  "Ep3":"Capítulo 3<br>Y llegó el cumpleaños de tu hermana, y durante los proximos meses iba a tener que remar y remar y remar y seguir remando...<br>"+image("16dscUTb4AG38xGpOLQHnP61cN3uMc-k_","320","240"),
-  "Ep4":"Capítulo 4<br>Y llegó el día de mi cumpleaños 2016... Y parecía que la remada no había servido de nada :(",
-  "Ep5":"Capítulo 5<br>Pero de repente un día me dijiste que fueramos a crepes cerca a mi oficina, solo tengo esta foto de ese día. Para que al final me dejaran solo en un anden y ella con sus amigas riendose del amigo que la había acompañado y lo habían dejado ahí solito botado. Con el bote y los remos dañados.",
-  "Ep6":"Capítulo 6<br>Sin embargo, todo cambio con esta conversación. 30 de Sept. Y si que iba a necesitar apoyo!!! Galerias... se abalanzaron sobre mi y yo muy inocente. La mejor cosa que podrías haber hecho. :D",
+  "Ep1":'Capítulo 1<br>Esta historia empieza un 23 de Abril de 2016. Y quién se iba a imaginar que la hermosa mujer que está bailando ahí se iba a convertir en la persona más especial en todo el mundo.'+image("1DnYnsnX5m-IbufQQ66XGZKzuF1jgjyF-","70","120"),
+  "Ep2":'Capítulo 2<br>Y de repente, estabamos en otro país disfrutando un viaje inolvidable. Solo que ella aun ni me daba la hora :( '+image("1kKYecxEVhDWVIFnA9M9g7ApDLmrxcwIu","320", "240") + 'Y ya empezaba a aparecer el agua, para empezar a remar.',
+  "Ep3":"Capítulo 3<br>Después a celebrar el cumpleaños de tu hermana, y durante los proximos meses iba a tener que remar y remar y remar y seguir remando..."+image("1cq0k4eL8bU1udsREKQ1YC5hhL7GKfQmP","320","240"),
+  "Ep4":"Capítulo 4<br>Y llegó el día de mi cumpleaños 2016... Y parecía que la remada no había servido de nada :( " + image("1QMwLtjvVZNipHqMUAlJ0YHHaMYL0z3ti","320","240"),
+  "Ep5":"Capítulo 5<br>Pero de repente un día me dijiste que fueramos a crepes cerca a mi oficina, solo tengo esta foto de ese día."+image("18k-aTdx66pKl2-lvY3NpCbzT6EVjZ3Vc","320","240")+" Para que al final me dejaran solo en un anden y ella con sus amigas riendose del amigo que la había acompañado y lo habían dejado ahí solito botado. Con el bote y los remos dañados.",
+  "Ep6":"Capítulo 6<br>Sin embargo, todo cambio con esta conversación. 30 de Sept."+image("1BvtgPuScfUlfJKiAvBgaF2k6dN9j7K8h","320","500")+" Y si que iba a necesitar apoyo!!! Galerias... se abalanzaron sobre mi y yo muy inocente. La mejor cosa que podrías haber hecho. :D",
   "Ep7":"Capítulo 7<br>Al final la remada si había servido para algo. Meses de increíble felicidad. Y empezamos a pasear :)",
   "Ep8":"Capítulo 8<br>Velitas 2016... Por fin me llevaste a tu casa después de tanto tiempo escondiendome. Y ese año hasta me autoinvite a Anapoima... muy conchudo, aunque solo fue una noche.",
   "Ep9":"Capítulo 9<br>Y llegó el magnífico 9 de Enero de 2017... <br>Aunque también me convertí en tu exnovio y todo por querer irte soltera a una despedida de soltera.... <br>Jummmm<br>La foto no es de ese día pero es la más cercana.",
