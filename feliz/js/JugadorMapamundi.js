@@ -161,7 +161,6 @@ JugadorMapamundi.prototype.moverEnNivel = function() {
 
 	if (!this.colisionAbajo && !this.subiendo) {
 		this.velocidadY = Math.round(-this.velocidadCaida);
-		console.log(this.velocidadY);
 		if(this.velocidadCaida < this.velocidadTerminal) {
 			this.velocidadCaida += 0.3;
 		}
@@ -202,7 +201,6 @@ JugadorMapamundi.prototype.dirigir = function() {
 	}
 
 
-	console.log(this.origenYSprite);
 	document.getElementById("jugador").style.backgroundPosition = "-" + this.origenXSprite + "px -" + this.origenYSprite + "px";
 }
 

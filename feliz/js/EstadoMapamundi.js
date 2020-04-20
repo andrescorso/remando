@@ -49,7 +49,7 @@ EstadoMapamundi.prototype.actualizar = function(registroTemporal) {
   "Ep19":"Capítulo 19<br>Incluso me abandonaste."+image("1DEdtm2ynHzVJJlaiY7XL5RhPfq7AgvBA","320","240") + "Pero no se sintió tan lejos mientras pude ir, porque seguimos paseando :)",
   "Ep20":"Capítulo 20<br>2019-2020 Pasamos juntos el primer año nuevo :) Espero que sea el primero de muchos."+image("1RwFTsG7261_ngbvrTMdRvcusvThSKekx","320","240") + " Aunque perdón porque este año no ha sido lo mejor.",
   "Ep21":"Capítulo 21<br>Me encantaría poder arruncharte lo más pronto posible." + image("1jy2n8tnkauuFilzR9Ak8HE6mX8yVAlfD","320","240"),
-  "Final":"Pero mientras tanto y dandole gracias a la vida de poder tenerte a mi lado. Quiero desearte un <br>Feliz Cumpleaños!!!!<br>Espero que podamos celebrarlo juntos muy pronto. Ojala este nuevo año nos permita seguir compartiendo historias y capítulos así estemos separados algunos meses. "+image("16dscUTb4AG38xGpOLQHnP61cN3uMc-k_","320","240") + "Te amo muchísimo y quiero seguir construyendo nuestra historia juntos!"
+  "Final":"Pero mientras tanto y dandole gracias a la vida de poder tenerte a mi lado. Quiero desearte un <br>Feliz Cumpleaños!!!!<br>Espero que podamos celebrarlo juntos muy pronto. Ojala este nuevo año nos permita seguir compartiendo historias y capítulos así estemos separados algunos meses. "+image("16dscUTb4AG38xGpOLQHnP61cN3uMc-k_","320","240") + "Te amo muchísimo y quiero seguir construyendo nuestra historia juntos!<br>Quiero remar a tu lado por mucho tiempo más."
   };
 
 	

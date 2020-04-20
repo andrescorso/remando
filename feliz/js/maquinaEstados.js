@@ -10,7 +10,7 @@ var maquinaEstados = {
 			case listadoEstados.MENU_INICIAL:
 				break;
 			case listadoEstados.MAPAMUNDI:
-				maquinaEstados.estadoActual = new EstadoMapamundi(listadoEstados.MAPAMUNDI, "mapas/mimundo.json", 160, 2260);
+				maquinaEstados.estadoActual = new EstadoMapamundi(listadoEstados.MAPAMUNDI, "mapas/mimundo2.json", 150, 2210);
 				break;
 			case listadoEstados.NIVEL:
 				maquinaEstados.estadoActual = new EstadoMapamundi(listadoEstados.NIVEL, objetoEntradaLocalizacion.rutaMapa,

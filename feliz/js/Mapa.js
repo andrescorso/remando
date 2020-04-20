@@ -2,6 +2,7 @@ function Mapa(objetoJSON, estadoJuego) { //añadir id estado
 	this.estadoJuego = estadoJuego;
 	this.posicion = new Punto(0,0);
 	this.posicionActualizada = new Punto(0,0);
+  console.log(objetoJSON);
 
 	let rutaCompletaImagenFondo = objetoJSON.tilesets[0].image;
 	let rutaImagenFondo = rutaCompletaImagenFondo.split("/");
@@ -39,6 +40,7 @@ Mapa.prototype.iniciarCapas = function(datosCapas) {
 		if (datosCapas[i].name == "colisiones") {
 			console.log("capa colisiones");
 			for (c = 0; c < datosCapas[i].objects.length; c++) {
+        console.log(datosCapas[i].objects[c].id, datosCapas[i].objects.length);
 				this.rectangulosColisiones.push(new Rectangulo(
 					datosCapas[i].objects[c].x, datosCapas[i].objects[c].y,
 					datosCapas[i].objects[c].width, datosCapas[i].objects[c].height, "colision"
