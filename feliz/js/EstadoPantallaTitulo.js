@@ -19,7 +19,7 @@ function EstadoPantallaTitulo() {
     document.getElementsByTagName("body")[0].style.overflow = "hidden";
     document.getElementsByTagName("body")[0].style.backgroundColor = "black";
 
-    audio.reproducir(audio.pista1);
+    //audio.reproducir(audio.pista1);
 
     document.getElementsByTagName("body")[0].onclick = function() {
       /*
