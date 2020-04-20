@@ -22,11 +22,13 @@ function EstadoPantallaTitulo() {
     audio.reproducir(audio.pista1);
 
     document.getElementsByTagName("body")[0].onclick = function() {
+      /*
         document.getElementById("pantalla-titulo").style.display = "none";
 
         document.getElementsByTagName("body")[0].onclick = "";
 
         maquinaEstados.cambiarEstado(listadoEstados.MAPAMUNDI);
+        */
     }
 }
 
