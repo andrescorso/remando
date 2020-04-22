@@ -27,7 +27,7 @@ EstadoMapamundi.prototype.actualizar = function(registroTemporal) {
 
 	let localizacionAtravesada = false;
 
-	let info = {"Ep0": "Hola!!! Bienvenida a este viaje.<br>Usa las flechas para mover al personaje y ve a cada casita para poder contarte una hermosa historia. Acompañeme en esta aventura.",
+	let info = {"Ep0": "Amoooooor por si vuelves por aquí, quiero que sepas que te amooooooooo y que si me escribes este código por el whatsapp 3009 te doy otro regalo. Hola!!! Bienvenida a este viaje.<br>Usa las flechas para mover al personaje y ve a cada casita para poder contarte una hermosa historia. Acompañeme en esta aventura.",
   "Ep1":'Capítulo 1<br>Esta historia empieza un 23 de Abril de 2016. Y quién se iba a imaginar que la hermosa mujer que está bailando ahí se iba a convertir en la persona más especial en todo el mundo.'+image("1DnYnsnX5m-IbufQQ66XGZKzuF1jgjyF-","70","120"),
   "Ep2":'Capítulo 2<br>Y de repente, estabamos en otro país disfrutando un viaje inolvidable. Solo que ella aun ni me daba la hora :( '+image("1kKYecxEVhDWVIFnA9M9g7ApDLmrxcwIu","320", "240") + 'Y ya empezaba a aparecer el agua, para empezar a remar.',
   "Ep3":"Capítulo 3<br>Después a celebrar el cumpleaños de tu hermana, y durante los proximos meses iba a tener que remar y remar y remar y seguir remando..."+image("1cq0k4eL8bU1udsREKQ1YC5hhL7GKfQmP","320","240"),
